@@ -1,4 +1,5 @@
 function showRSTResult(qry) {
+	/* Another project */
     var client = new octopart.SearchClient(), i, k, found = false, titleStr = ': технические характеристики', descArr = [], imgPath;
     // jQuery('#P10_DESCR_STAT_ID').dialog({title:qry + titleStr}).dialog('open');
     jQuery('#P22_DESCR_STAT_ID').show();
